@@ -1,0 +1,265 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .header {
+        display: flex;
+        padding: 50px;
+    }
+    
+    .header .logo {
+        padding-right: 50px;
+    }
+    
+    .nav-bar {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 15%;
+    }
+    
+    .nav-bar ul li {
+        display: inline;
+        padding-left: 15px;
+    }
+    
+    .nav-bar ul li a {
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .nav-bar .active {
+        position: relative;
+        left: 40%;
+    }
+    
+    .active,
+    .btn {
+        background: #f37209;
+        color: #fefefe;
+        padding: 10px;
+        text-align: center;
+        border: #f37209 solid 1px;
+        border-radius: 55px;
+    }
+    
+    .active:hover {
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+    }
+    
+    .active li a {
+        color: #fefefe;
+    }
+    
+    .banner {
+        display: flex;
+        padding: 50px;
+    }
+    
+    .banner-text h1 {
+        font-size: 45px;
+        padding-bottom: 30px;
+        color: #00115a;
+    }
+    
+    .banner-text p {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .banner-img {
+        height: 30%;
+        width: 60%;
+    }
+    
+    .content {
+        display: flex;
+        padding: 50px;
+    }
+    
+    .first-content h1 {
+        font-size: 40px;
+        color: #00115a;
+        padding-bottom: 20px;
+    }
+    
+    .first-content p {
+        width: 40%;
+        color: rgb(117, 117, 117);
+        padding-bottom: 50px;
+    }
+    
+    .content-sections {
+        display: flex;
+    }
+    
+    .content-sections .point {
+        margin-right: 20px;
+    }
+    
+    .point {
+        padding: 15px;
+        width: 45px;
+    }
+    
+    .point-content {
+        padding-bottom: 40px;
+    }
+    
+    .point-content h3 {
+        padding-bottom: 20px;
+    }
+    
+    .testimonial-container {
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .testimonial-container h1 {
+        color: #000933;
+        font-size: 40px;
+        padding-bottom: 60px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .testimonials {
+        display: flex;
+        padding: 50px;
+    }
+    
+    .row {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .col {
+        padding: 10px;
+    }
+    
+    .col img {
+        padding-bottom: 40px;
+    }
+    
+    .col h4 {
+        padding-bottom: 15px;
+    }
+    
+    .col p {
+        color: rgb(133, 133, 133);
+    }
+    
+    .testimonial-btn {
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    
+    .extra-content {
+        padding-top: 40px;
+        background: #f37209;
+        width: 100%;
+        height: 190px;
+    }
+    
+    .extra-content-text {
+        display: flex;
+        padding: 50px;
+    }
+    
+    .extra-content-text h1 {
+        color: #fefefe;
+    }
+    
+    .extra-cont-btn {
+        position: relative;
+        left: 65%;
+    }
+    
+    .btn-white {
+        color: #f37209;
+        background: #fefefe;
+        padding: 10px;
+        text-align: center;
+        border: #f37209 solid 1px;
+        border-radius: 55px;
+    }
+    
+    .footer {
+        width: 100%;
+        height: auto;
+        background: #121318;
+    }
+    
+    .logo-footer-and-socials {
+        padding: 50px;
+    }
+    
+    .logo-footer-and-socials .footer-logo {
+        padding-bottom: 40px;
+    }
+    
+    .socials {
+        display: flex;
+    }
+    
+    .socials ul li {
+        display: inline;
+    }
+    
+    .socials ul li a {
+        padding-right: 10px;
+    }
+    
+    .row-footer {
+        display: flex;
+    }
+    
+    .col-footer {
+        display: inline;
+    }
+    
+    .col-footer .footer-links {
+        padding-right: 45px;
+        position: relative;
+        left: 200%;
+    }
+    
+    .footer-links ul li a {
+        color: #fefefe;
+    }
+    
+    .search-bar {
+        position: relative;
+        left: 185%;
+    }
+    
+    .search-bar input {
+        border: 10px solid #fefefe;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .copyright {
+        color: #b3b3b3;
+    }
+    
+    .search-bar .copyright {
+        padding-top: 15%;
+        padding-right: 20%;
+    }
